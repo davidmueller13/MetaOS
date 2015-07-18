@@ -23,6 +23,9 @@
   </project>
 
   <project path="android" name="Meta-OS/MetaOS"  />
+    <project path="packages/apps/Settings" name="Meta-OS/android_packages_apps_Settings" revision="MOS-5.1"  />
+    <project path="packages/apps/SetupWizard" name="Meta-OS/packages_apps_SetupWizard" revision="MOS-5.1" />
+    <project path="vendor/meta" name="Meta-OS/vendor_meta" revision="cm-12.1" />
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="CyanogenMod/android_art" groups="pdk" />
@@ -477,8 +480,6 @@
   <project path="packages/apps/PhoneCommon" name="CyanogenMod/android_packages_apps_PhoneCommon" />
   <project path="packages/apps/Profiles" name="CyanogenMod/android_packages_apps_Profiles" />
   <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" />
-  <project path="packages/apps/Settings" name="Meta-OS/android_packages_apps_Settings"  />
-  <project path="packages/apps/SetupWizard" name="Meta-OS/packages_apps_SetupWizard" />
   <project path="packages/apps/SmartCardService" name="CyanogenMod/android_packages_apps_SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" />
   <project path="packages/apps/SpeechRecorder" name="CyanogenMod/android_packages_apps_SpeechRecorder" />
@@ -590,6 +591,5 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" remote="aosp" />
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" remote="aosp" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" />
-  <project path="vendor/meta" name="Meta-OS/vendor_meta" />
   <project path="vendor/cmsdk" name="CyanogenMod/cm_platform_sdk" />
 </manifest>
